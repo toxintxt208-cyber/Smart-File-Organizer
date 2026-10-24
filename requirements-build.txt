@@ -1,0 +1,5 @@
+# Dependencias para compilar el ejecutable de Windows.
+# Uso: python -m pip install -r requirements-build.txt
+-r requirements.txt
+pyinstaller>=6.0,<7
+Pillow>=10,<14

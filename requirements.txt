@@ -1,0 +1,3 @@
+# Dependencia opcional: vigilancia en tiempo real de archivos nuevos.
+# El resto de la aplicación funciona sin ella (modo manual y programado).
+watchdog>=3.0,<7

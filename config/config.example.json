@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "name": "Descargas",
+      "path": "%USERPROFILE%\\Downloads",
+      "enabled": true
+    },
+    {
+      "name": "Escritorio",
+      "path": "%USERPROFILE%\\Desktop",
+      "enabled": true
+    }
+  ],
+  "categories": {
+    "Documentos": [".pdf", ".doc", ".docx", ".odt", ".txt", ".rtf"],
+    "Hojas_de_calculo": [".xls", ".xlsx", ".csv", ".ods"],
+    "Presentaciones": [".ppt", ".pptx", ".odp"],
+    "Imagenes": [".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp", ".svg"],
+    "Videos": [".mp4", ".mkv", ".mov", ".avi", ".webm"],
+    "Audio": [".mp3", ".wav", ".flac", ".aac", ".ogg"],
+    "Comprimidos": [".zip", ".rar", ".7z", ".tar", ".gz"],
+    "Instaladores": [".exe", ".msi", ".msix"],
+    "Codigo": [".py", ".js", ".ts", ".html", ".css", ".java", ".cpp"],
+    "Otros": []
+  },
+  "default_category": "Otros",
+  "automation": {
+    "enabled": false,
+    "interval_minutes": 30,
+    "start_with_windows": false,
+    "run_on_start": false
+  },
+  "watcher": {
+    "enabled": false,
+    "settle_seconds": 5.0,
+    "poll_interval": 1.0
+  },
+  "ui": {
+    "theme": "clam",
+    "window_width": 1200,
+    "window_height": 820,
+    "last_source": ""
+  },
+  "history": {
+    "enabled": true,
+    "max_operations": 500
+  },
+  "safety": {
+    "skip_hidden": true,
+    "skip_system": true,
+    "confirm_before_organize": true,
+    "first_organization_done": false
+  }
+}

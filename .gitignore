@@ -1,0 +1,46 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging and builds
+build/
+dist/
+*.egg-info/
+# Los .spec de PyInstaller sí se versionan; se ignoran los temporales.
+*.spec.bak
+# Icono generado por tools/make_icon.py durante la compilación.
+assets/app.ico
+
+# Runtime files that must never be committed
+config/config.json
+logs/*
+!logs/.gitkeep
+
+# Editors and operating system files
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local logs and temporary files
+*.log
+*.tmp
